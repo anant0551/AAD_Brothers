@@ -47,7 +47,6 @@ export const getCurrentUser = async () => {
     throw error;
   }
 };
-
 /**
  * Fetch User Profile (Explicitly named function)
  * @returns {Promise} - Resolves with user profile data
